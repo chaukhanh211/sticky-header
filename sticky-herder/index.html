@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky header khi scroll bằng html jquery css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="" class="wrapper">
+        <header>
+            <div class="inner-header container">
+                <a href="" class="logo">Unitop</a>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Sản phẩm</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="banner">
+
+        </div>
+        <div id="content" class="container">
+            <h1>Cố định header khi scroll bằng html css jquery.</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam ratione et, ducimus quidem suscipit nihil provident, facilis iure a laudantium aperiam unde dolorem illo pariatur quae placeat beatae. Soluta qui ab ipsam accusamus sit. Architecto, veniam reiciendis! Voluptatem magnam facilis corrupti quibusdam maiores. Voluptatum quos dolore reiciendis alias excepturi quae dolor eaque. Eveniet magni ex at eaque mollitia voluptas ipsa, hic animi praesentium aperiam? Iure molestiae dolore magni, consequatur blanditiis nemo maiores a! Voluptatem iure quae veniam velit, pariatur vel sint maiores hic fuga, quibusdam fugiat possimus eius, mollitia assumenda ipsam? Officia incidunt labore voluptates qui optio, sunt sint.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam ratione et, ducimus quidem suscipit nihil provident, facilis iure a laudantium aperiam unde dolorem illo pariatur quae placeat beatae. Soluta qui ab ipsam accusamus sit. Architecto, veniam reiciendis! Voluptatem magnam facilis corrupti quibusdam maiores. Voluptatum quos dolore reiciendis alias excepturi quae dolor eaque. Eveniet magni ex at eaque mollitia voluptas ipsa, hic animi praesentium aperiam? Iure molestiae dolore magni, consequatur blanditiis nemo maiores a! Voluptatem iure quae veniam velit, pariatur vel sint maiores hic fuga, quibusdam fugiat possimus eius, mollitia assumenda ipsam? Officia incidunt labore voluptates qui optio, sunt sint.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam ratione et, ducimus quidem suscipit nihil provident, facilis iure a laudantium aperiam unde dolorem illo pariatur quae placeat beatae. Soluta qui ab ipsam accusamus sit. Architecto, veniam reiciendis! Voluptatem magnam facilis corrupti quibusdam maiores. Voluptatum quos dolore reiciendis alias excepturi quae dolor eaque. Eveniet magni ex at eaque mollitia voluptas ipsa, hic animi praesentium aperiam? Iure molestiae dolore magni, consequatur blanditiis nemo maiores a! Voluptatem iure quae veniam velit, pariatur vel sint maiores hic fuga, quibusdam fugiat possimus eius, mollitia assumenda ipsam? Officia incidunt labore voluptates qui optio, sunt sint.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam ratione et, ducimus quidem suscipit nihil provident, facilis iure a laudantium aperiam unde dolorem illo pariatur quae placeat beatae. Soluta qui ab ipsam accusamus sit. Architecto, veniam reiciendis! Voluptatem magnam facilis corrupti quibusdam maiores. Voluptatum quos dolore reiciendis alias excepturi quae dolor eaque. Eveniet magni ex at eaque mollitia voluptas ipsa, hic animi praesentium aperiam? Iure molestiae dolore magni, consequatur blanditiis nemo maiores a! Voluptatem iure quae veniam velit, pariatur vel sint maiores hic fuga, quibusdam fugiat possimus eius, mollitia assumenda ipsam? Officia incidunt labore voluptates qui optio, sunt sint.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam ratione et, ducimus quidem suscipit nihil provident, facilis iure a laudantium aperiam unde dolorem illo pariatur quae placeat beatae. Soluta qui ab ipsam accusamus sit. Architecto, veniam reiciendis! Voluptatem magnam facilis corrupti quibusdam maiores. Voluptatum quos dolore reiciendis alias excepturi quae dolor eaque. Eveniet magni ex at eaque mollitia voluptas ipsa, hic animi praesentium aperiam? Iure molestiae dolore magni, consequatur blanditiis nemo maiores a! Voluptatem iure quae veniam velit, pariatur vel sint maiores hic fuga, quibusdam fugiat possimus eius, mollitia assumenda ipsam? Officia incidunt labore voluptates qui optio, sunt sint.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsam ratione et, ducimus quidem suscipit nihil provident, facilis iure a laudantium aperiam unde dolorem illo pariatur quae placeat beatae. Soluta qui ab ipsam accusamus sit. Architecto, veniam reiciendis! Voluptatem magnam facilis corrupti quibusdam maiores. Voluptatum quos dolore reiciendis alias excepturi quae dolor eaque. Eveniet magni ex at eaque mollitia voluptas ipsa, hic animi praesentium aperiam? Iure molestiae dolore magni, consequatur blanditiis nemo maiores a! Voluptatem iure quae veniam velit, pariatur vel sint maiores hic fuga, quibusdam fugiat possimus eius, mollitia assumenda ipsam? Officia incidunt labore voluptates qui optio, sunt sint.
+            </p>
+        </div>
+    </div>
+
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if($(this).scrollTop()){
+                $('header').addClass('sticky');
+            }
+            else{
+                $('header').removeClass('sticky');
+            }
+        });
+    })
+</script>
+</html>
